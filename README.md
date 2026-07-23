@@ -1,10 +1,10 @@
-# 🎯 RLHF Advertising Tagline Generator using Direct Preference Optimization (DPO)
+# RLHF Advertising Tagline Generator using Direct Preference Optimization (DPO)
 
 > An end-to-end Reinforcement Learning from Human Feedback (RLHF) pipeline that fine-tunes a Large Language Model to generate high-quality advertising taglines using Direct Preference Optimization (DPO).
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Large Language Models often generate multiple plausible responses, but determining which response is *better* depends on human preference.
 
@@ -20,7 +20,7 @@ Unlike traditional supervised fine-tuning, DPO directly learns from human prefer
 
 ---
 
-## 🚀 Features
+##  Features
 
 - End-to-end RLHF pipeline
 - Human preference collection interface
@@ -32,7 +32,7 @@ Unlike traditional supervised fine-tuning, DPO directly learns from human prefer
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Category | Tools |
 |-----------|-------|
