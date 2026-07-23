@@ -227,6 +227,25 @@ The DPO model learned to:
 - Generate more consistent advertising slogans
 
 ---
+## Inference Comparison
+
+The following example demonstrates the difference between the original base model and the DPO fine-tuned model on an unseen prompt.
+
+**Prompt**
+
+```text
+Create compelling advertising taglines for an AI-powered study assistant that helps students learn faster while making studying enjoyable.
+```
+
+### Output
+
+<p align="center">
+  <img src="images/inference_comparison.png" width="900">
+</p>
+
+### Observation
+
+The base model generates more varied and creative taglines, whereas the DPO model consistently produces outputs that align more closely with the preference data used during training. Since the ranking process emphasized feature relevance and clear product messaging, the fine-tuned model prioritizes the product's core value proposition, demonstrating successful preference alignment through Direct Preference Optimization (DPO).
 
 # Installation
 
