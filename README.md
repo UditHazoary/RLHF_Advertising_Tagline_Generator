@@ -22,13 +22,13 @@ Unlike traditional supervised fine-tuning, DPO directly learns from human prefer
 
 ##  Features
 
-- End-to-end RLHF pipeline
-- Human preference collection interface
-- Automatic DPO dataset creation
-- LoRA-based DPO fine-tuning
-- Original vs Fine-tuned model comparison
-- Training metric visualization
-- Reproducible workflow
+- End-to-end RLHF workflow
+- Manual human preference annotation (100 prompts)
+- Automatic construction of 1,000 DPO preference pairs
+- Parameter-efficient LoRA fine-tuning
+- Original vs. DPO model comparison
+- Training metrics and convergence visualization
+- Fully reproducible training and inference pipeline
 
 ---
 
