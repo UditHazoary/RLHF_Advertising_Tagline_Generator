@@ -183,7 +183,7 @@ Example metrics tracked during training:
 - Gradient Norm
 - Learning Rate
 
-Training plots are generated automatically:
+![Training Dashboard](images/training_dashboard.png)
 
 ```
 python scripts/07_plot_training_metrics.py
