@@ -1,6 +1,6 @@
 # RLHF Advertising Tagline Generator using Direct Preference Optimization (DPO)
 
-> An end-to-end Reinforcement Learning from Human Feedback (RLHF) pipeline that fine-tunes a Large Language Model to generate high-quality advertising taglines using Direct Preference Optimization (DPO).
+> Built an end-to-end Reinforcement Learning from Human Feedback (RLHF) pipeline that collects human preference rankings and fine-tunes **Qwen2.5-0.5B-Instruct** using **LoRA-based Direct Preference Optimization (DPO)** for advertising tagline generation.
 
 ---
 
@@ -13,18 +13,18 @@ This project demonstrates a complete RLHF workflow by:
 - Generating multiple tagline candidates using a base LLM
 - Collecting human preference rankings
 - Converting rankings into pairwise preference data
-- Fine-tuning the model using Direct Preference Optimization (DPO)
+- Fine-tuning the model using **LoRA-based Direct Preference Optimization (DPO)**
 - Comparing the original and fine-tuned models on unseen product descriptions
 
 Unlike traditional supervised fine-tuning, DPO directly learns from human preferences without requiring a separate reward model.
 
 ---
 
-##  Features
+## Features
 
 - End-to-end RLHF workflow
-- Manual human preference annotation (100 prompts)
-- Automatic construction of 1,000 DPO preference pairs
+- Manual human preference annotation (**100 prompts**)
+- Automatic construction of **1,000 DPO preference pairs**
 - Parameter-efficient LoRA fine-tuning
 - Original vs. DPO model comparison
 - Training metrics and convergence visualization
@@ -50,7 +50,7 @@ Unlike traditional supervised fine-tuning, DPO directly learns from human prefer
 # Project Structure
 
 ```text
-PROJECT_TITLE_RLHF/
+RLHF_Advertising_Tagline_Generator/
 
 ├── data/
 │   ├── candidates.csv
@@ -67,6 +67,10 @@ PROJECT_TITLE_RLHF/
 │   ├── gradient_norm.png
 │   ├── learning_rate.png
 │   └── training_dashboard.png
+│
+├── images/
+│   ├── training_dashboard.png
+│   └── inference_comparison.png
 │
 ├── models/
 │   └── dpo/
@@ -87,7 +91,7 @@ PROJECT_TITLE_RLHF/
 
 # RLHF Pipeline
 
-```
+```text
 Product Description
         │
         ▼
@@ -115,9 +119,9 @@ Inference & Comparison
 
 ## Candidate Generation
 
-- 100 product descriptions
-- 5 generated taglines per description
-- Total generated taglines: **500**
+- **100** product descriptions
+- **5** generated taglines per description
+- **500** generated taglines
 
 ---
 
@@ -125,7 +129,7 @@ Inference & Comparison
 
 Each product description was manually ranked from:
 
-```
+```text
 Best
  ↓
 2 5 1 4 3
@@ -150,22 +154,22 @@ Example:
 
 Final dataset:
 
-- 100 prompts
-- 1000 preference pairs
+- **100** prompts
+- **1,000** preference pairs
 
 ---
 
 # Model Training
 
-Base Model:
+### Base Model
 
-```
+```text
 Qwen/Qwen2.5-0.5B-Instruct
 ```
 
-Training Method:
+### Training Method
 
-- Direct Preference Optimization
+- Direct Preference Optimization (DPO)
 - LoRA Fine-tuning
 - TRL DPOTrainer
 
@@ -173,7 +177,7 @@ Training Method:
 
 # Training Metrics
 
-Example metrics tracked during training:
+The following metrics were tracked during DPO training:
 
 - Training Loss
 - Reward Accuracy
@@ -183,9 +187,13 @@ Example metrics tracked during training:
 - Gradient Norm
 - Learning Rate
 
-![Training Dashboard](images/training_dashboard.png)
+<p align="center">
+  <img src="images/training_dashboard.png" width="900">
+</p>
 
-```
+Generate the plots using:
+
+```bash
 python scripts/07_plot_training_metrics.py
 ```
 
@@ -193,7 +201,7 @@ python scripts/07_plot_training_metrics.py
 
 # Inference
 
-Run:
+Run inference using:
 
 ```bash
 python scripts/06_inference.py
@@ -201,37 +209,27 @@ python scripts/06_inference.py
 
 Example:
 
-```
-Input:
+```text
+Input
 
 An AI-powered yoga app that corrects your posture in real time.
 
-Original Model:
+Original Model
 
 Stay Fit on the Go
 
-DPO Model:
+DPO Model
 
 Correct Your Posture with Our AI Yoga App!
 ```
 
 ---
 
-# Results
-
-The DPO model learned to:
-
-- Produce more relevant taglines
-- Better capture product features
-- Follow human preference patterns
-- Generate more consistent advertising slogans
-
----
-## Inference Comparison
+# Inference Comparison
 
 The following example demonstrates the difference between the original base model and the DPO fine-tuned model on an unseen prompt.
 
-**Prompt**
+### Prompt
 
 ```text
 Create compelling advertising taglines for an AI-powered study assistant that helps students learn faster while making studying enjoyable.
@@ -247,12 +245,26 @@ Create compelling advertising taglines for an AI-powered study assistant that he
 
 The base model generates more varied and creative taglines, whereas the DPO model consistently produces outputs that align more closely with the preference data used during training. Since the ranking process emphasized feature relevance and clear product messaging, the fine-tuned model prioritizes the product's core value proposition, demonstrating successful preference alignment through Direct Preference Optimization (DPO).
 
+---
+
+# Results
+
+The DPO model learned to:
+
+- Produce more relevant advertising taglines
+- Better capture product features
+- Follow human preference patterns
+- Generate more consistent marketing messages
+- Successfully align generation with manually annotated preferences
+
+---
+
 # Installation
 
 ```bash
-git clone <repo>
+git clone https://github.com/UditHazoary/RLHF_Advertising_Tagline_Generator.git
 
-cd PROJECT_TITLE_RLHF
+cd RLHF_Advertising_Tagline_Generator
 
 python -m venv venv
 
