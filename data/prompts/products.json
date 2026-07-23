@@ -1,0 +1,502 @@
+[
+    {
+        "id": 1,
+        "industry": "Fitness",
+        "description": "A fitness mobile app that works completely offline, helping developers by enhancing customer experience."
+    },
+    {
+        "id": 2,
+        "industry": "Travel",
+        "description": "A travel web platform that supports voice commands, helping fitness enthusiasts by reducing operational costs."
+    },
+    {
+        "id": 3,
+        "industry": "Pet Care",
+        "description": "A pet care mobile app that uses artificial intelligence, helping developers by reducing operational costs."
+    },
+    {
+        "id": 4,
+        "industry": "Automotive",
+        "description": "A automotive wearable device that provides predictive insights, helping content creators by saving users time."
+    },
+    {
+        "id": 5,
+        "industry": "Fashion",
+        "description": "A fashion wearable device that uses computer vision, helping retail stores by enhancing customer experience."
+    },
+    {
+        "id": 6,
+        "industry": "Environment",
+        "description": "A environment subscription service that uses artificial intelligence, helping travelers by improving productivity."
+    },
+    {
+        "id": 7,
+        "industry": "E-commerce",
+        "description": "A e-commerce subscription service that automates repetitive tasks, helping healthcare professionals by enhancing customer experience."
+    },
+    {
+        "id": 8,
+        "industry": "Fitness",
+        "description": "A fitness web platform that uses computer vision, helping healthcare professionals by reducing operational costs."
+    },
+    {
+        "id": 9,
+        "industry": "Cybersecurity",
+        "description": "A cybersecurity cloud platform that works completely offline, helping retail stores by saving users time."
+    },
+    {
+        "id": 10,
+        "industry": "Smart Home",
+        "description": "A smart home web platform that uses computer vision, helping content creators by reducing operational costs."
+    },
+    {
+        "id": 11,
+        "industry": "Gaming",
+        "description": "A gaming cloud platform that integrates with popular apps, helping developers by streamlining workflows."
+    },
+    {
+        "id": 12,
+        "industry": "Education",
+        "description": "A education mobile app that offers personalized recommendations, helping small businesses by making better decisions."
+    },
+    {
+        "id": 13,
+        "industry": "Automotive",
+        "description": "A automotive web platform that uses computer vision, helping retail stores by making better decisions."
+    },
+    {
+        "id": 14,
+        "industry": "Cybersecurity",
+        "description": "A cybersecurity AI assistant that integrates with popular apps, helping developers by increasing engagement."
+    },
+    {
+        "id": 15,
+        "industry": "Real Estate",
+        "description": "A real estate web platform that provides predictive insights, helping content creators by improving productivity."
+    },
+    {
+        "id": 16,
+        "industry": "Automotive",
+        "description": "A automotive AI assistant that leverages blockchain technology, helping parents by simplifying daily tasks."
+    },
+    {
+        "id": 17,
+        "industry": "Smart Home",
+        "description": "A smart home smart device that integrates with popular apps, helping developers by saving users time."
+    },
+    {
+        "id": 18,
+        "industry": "Finance",
+        "description": "A finance marketplace that uses computer vision, helping small businesses by making better decisions."
+    },
+    {
+        "id": 19,
+        "industry": "Fashion",
+        "description": "A fashion cloud platform that integrates with popular apps, helping retail stores by enhancing customer experience."
+    },
+    {
+        "id": 20,
+        "industry": "Agriculture",
+        "description": "A agriculture chatbot that automates repetitive tasks, helping teachers by making better decisions."
+    },
+    {
+        "id": 21,
+        "industry": "Automotive",
+        "description": "A automotive wearable device that supports voice commands, helping fitness enthusiasts by making better decisions."
+    },
+    {
+        "id": 22,
+        "industry": "Pet Care",
+        "description": "A pet care cloud platform that uses computer vision, helping developers by increasing engagement."
+    },
+    {
+        "id": 23,
+        "industry": "Travel",
+        "description": "A travel wearable device that leverages blockchain technology, helping students by reducing operational costs."
+    },
+    {
+        "id": 24,
+        "industry": "Fitness",
+        "description": "A fitness AI assistant that automates repetitive tasks, helping fitness enthusiasts by simplifying daily tasks."
+    },
+    {
+        "id": 25,
+        "industry": "Education",
+        "description": "A education analytics dashboard that uses computer vision, helping retail stores by streamlining workflows."
+    },
+    {
+        "id": 26,
+        "industry": "Productivity",
+        "description": "A productivity subscription service that supports voice commands, helping small businesses by saving users time."
+    },
+    {
+        "id": 27,
+        "industry": "Smart Home",
+        "description": "A smart home subscription service that integrates with popular apps, helping parents by reducing operational costs."
+    },
+    {
+        "id": 28,
+        "industry": "Pet Care",
+        "description": "A pet care AI assistant that leverages blockchain technology, helping parents by saving users time."
+    },
+    {
+        "id": 29,
+        "industry": "Productivity",
+        "description": "A productivity AI assistant that supports voice commands, helping parents by reducing operational costs."
+    },
+    {
+        "id": 30,
+        "industry": "Productivity",
+        "description": "A productivity cloud platform that offers personalized recommendations, helping healthcare professionals by improving productivity."
+    },
+    {
+        "id": 31,
+        "industry": "Food",
+        "description": "A food wearable device that supports voice commands, helping fitness enthusiasts by saving users time."
+    },
+    {
+        "id": 32,
+        "industry": "E-commerce",
+        "description": "A e-commerce chatbot that uses artificial intelligence, helping healthcare professionals by reducing operational costs."
+    },
+    {
+        "id": 33,
+        "industry": "Gaming",
+        "description": "A gaming smart device that uses artificial intelligence, helping fitness enthusiasts by enhancing customer experience."
+    },
+    {
+        "id": 34,
+        "industry": "Education",
+        "description": "A education web platform that leverages blockchain technology, helping content creators by reducing operational costs."
+    },
+    {
+        "id": 35,
+        "industry": "Travel",
+        "description": "A travel AI assistant that leverages blockchain technology, helping teachers by boosting business growth."
+    },
+    {
+        "id": 36,
+        "industry": "Real Estate",
+        "description": "A real estate wearable device that provides predictive insights, helping developers by simplifying daily tasks."
+    },
+    {
+        "id": 37,
+        "industry": "Smart Home",
+        "description": "A smart home smart device that works completely offline, helping healthcare professionals by simplifying daily tasks."
+    },
+    {
+        "id": 38,
+        "industry": "Music",
+        "description": "A music wearable device that leverages blockchain technology, helping developers by reducing operational costs."
+    },
+    {
+        "id": 39,
+        "industry": "Automotive",
+        "description": "A automotive web platform that integrates with popular apps, helping fitness enthusiasts by saving users time."
+    },
+    {
+        "id": 40,
+        "industry": "Smart Home",
+        "description": "A smart home smart device that provides predictive insights, helping students by enhancing customer experience."
+    },
+    {
+        "id": 41,
+        "industry": "Education",
+        "description": "A education mobile app that offers personalized recommendations, helping students by reducing operational costs."
+    },
+    {
+        "id": 42,
+        "industry": "E-commerce",
+        "description": "A e-commerce web platform that supports voice commands, helping parents by enhancing customer experience."
+    },
+    {
+        "id": 43,
+        "industry": "Sports",
+        "description": "A sports smart device that supports voice commands, helping fitness enthusiasts by improving productivity."
+    },
+    {
+        "id": 44,
+        "industry": "Environment",
+        "description": "A environment chatbot that offers personalized recommendations, helping travelers by improving accessibility."
+    },
+    {
+        "id": 45,
+        "industry": "Fashion",
+        "description": "A fashion web platform that provides real-time analytics, helping healthcare professionals by simplifying daily tasks."
+    },
+    {
+        "id": 46,
+        "industry": "Pet Care",
+        "description": "A pet care analytics dashboard that leverages blockchain technology, helping small businesses by saving users time."
+    },
+    {
+        "id": 47,
+        "industry": "Finance",
+        "description": "A finance analytics dashboard that integrates with popular apps, helping developers by reducing operational costs."
+    },
+    {
+        "id": 48,
+        "industry": "Fashion",
+        "description": "A fashion smart device that supports voice commands, helping teachers by improving accessibility."
+    },
+    {
+        "id": 49,
+        "industry": "Pet Care",
+        "description": "A pet care AI assistant that works completely offline, helping developers by improving accessibility."
+    },
+    {
+        "id": 50,
+        "industry": "Education",
+        "description": "A education chatbot that supports voice commands, helping students by reducing operational costs."
+    },
+    {
+        "id": 51,
+        "industry": "Smart Home",
+        "description": "A smart home mobile app that provides real-time analytics, helping teachers by enhancing customer experience."
+    },
+    {
+        "id": 52,
+        "industry": "Pet Care",
+        "description": "A pet care chatbot that leverages blockchain technology, helping travelers by enhancing customer experience."
+    },
+    {
+        "id": 53,
+        "industry": "Finance",
+        "description": "A finance AI assistant that uses computer vision, helping travelers by saving users time."
+    },
+    {
+        "id": 54,
+        "industry": "Real Estate",
+        "description": "A real estate chatbot that works completely offline, helping content creators by simplifying daily tasks."
+    },
+    {
+        "id": 55,
+        "industry": "Sports",
+        "description": "A sports AI assistant that offers personalized recommendations, helping developers by making better decisions."
+    },
+    {
+        "id": 56,
+        "industry": "Finance",
+        "description": "A finance cloud platform that supports voice commands, helping healthcare professionals by saving users time."
+    },
+    {
+        "id": 57,
+        "industry": "Finance",
+        "description": "A finance mobile app that provides predictive insights, helping content creators by improving accessibility."
+    },
+    {
+        "id": 58,
+        "industry": "Productivity",
+        "description": "A productivity AI assistant that uses artificial intelligence, helping small businesses by boosting business growth."
+    },
+    {
+        "id": 59,
+        "industry": "Food",
+        "description": "A food web platform that provides predictive insights, helping developers by reducing operational costs."
+    },
+    {
+        "id": 60,
+        "industry": "Agriculture",
+        "description": "A agriculture web platform that provides predictive insights, helping fitness enthusiasts by enhancing customer experience."
+    },
+    {
+        "id": 61,
+        "industry": "Retail",
+        "description": "A retail mobile app that provides predictive insights, helping travelers by reducing operational costs."
+    },
+    {
+        "id": 62,
+        "industry": "Environment",
+        "description": "A environment cloud platform that supports voice commands, helping parents by increasing engagement."
+    },
+    {
+        "id": 63,
+        "industry": "Fashion",
+        "description": "A fashion marketplace that offers personalized recommendations, helping travelers by making better decisions."
+    },
+    {
+        "id": 64,
+        "industry": "Travel",
+        "description": "A travel subscription service that leverages blockchain technology, helping small businesses by increasing engagement."
+    },
+    {
+        "id": 65,
+        "industry": "Healthcare",
+        "description": "A healthcare chatbot that provides predictive insights, helping small businesses by streamlining workflows."
+    },
+    {
+        "id": 66,
+        "industry": "Education",
+        "description": "A education wearable device that offers personalized recommendations, helping parents by boosting business growth."
+    },
+    {
+        "id": 67,
+        "industry": "Travel",
+        "description": "A travel marketplace that provides real-time analytics, helping healthcare professionals by enhancing customer experience."
+    },
+    {
+        "id": 68,
+        "industry": "Gaming",
+        "description": "A gaming AI assistant that leverages blockchain technology, helping parents by boosting business growth."
+    },
+    {
+        "id": 69,
+        "industry": "Retail",
+        "description": "A retail wearable device that uses artificial intelligence, helping parents by boosting business growth."
+    },
+    {
+        "id": 70,
+        "industry": "Fitness",
+        "description": "A fitness AI assistant that works completely offline, helping small businesses by reducing operational costs."
+    },
+    {
+        "id": 71,
+        "industry": "Smart Home",
+        "description": "A smart home AI assistant that works completely offline, helping fitness enthusiasts by making better decisions."
+    },
+    {
+        "id": 72,
+        "industry": "Fashion",
+        "description": "A fashion marketplace that offers personalized recommendations, helping content creators by making better decisions."
+    },
+    {
+        "id": 73,
+        "industry": "Sports",
+        "description": "A sports subscription service that uses artificial intelligence, helping travelers by reducing operational costs."
+    },
+    {
+        "id": 74,
+        "industry": "Real Estate",
+        "description": "A real estate mobile app that uses artificial intelligence, helping teachers by increasing engagement."
+    },
+    {
+        "id": 75,
+        "industry": "Real Estate",
+        "description": "A real estate AI assistant that leverages blockchain technology, helping travelers by boosting business growth."
+    },
+    {
+        "id": 76,
+        "industry": "Smart Home",
+        "description": "A smart home mobile app that provides real-time analytics, helping teachers by reducing operational costs."
+    },
+    {
+        "id": 77,
+        "industry": "Smart Home",
+        "description": "A smart home mobile app that integrates with popular apps, helping content creators by streamlining workflows."
+    },
+    {
+        "id": 78,
+        "industry": "Travel",
+        "description": "A travel analytics dashboard that automates repetitive tasks, helping parents by saving users time."
+    },
+    {
+        "id": 79,
+        "industry": "Cybersecurity",
+        "description": "A cybersecurity mobile app that integrates with popular apps, helping developers by enhancing customer experience."
+    },
+    {
+        "id": 80,
+        "industry": "Fitness",
+        "description": "A fitness marketplace that supports voice commands, helping fitness enthusiasts by simplifying daily tasks."
+    },
+    {
+        "id": 81,
+        "industry": "Travel",
+        "description": "A travel smart device that automates repetitive tasks, helping travelers by improving productivity."
+    },
+    {
+        "id": 82,
+        "industry": "Healthcare",
+        "description": "A healthcare AI assistant that integrates with popular apps, helping developers by simplifying daily tasks."
+    },
+    {
+        "id": 83,
+        "industry": "Real Estate",
+        "description": "A real estate AI assistant that provides real-time analytics, helping students by simplifying daily tasks."
+    },
+    {
+        "id": 84,
+        "industry": "Sports",
+        "description": "A sports smart device that offers personalized recommendations, helping healthcare professionals by improving accessibility."
+    },
+    {
+        "id": 85,
+        "industry": "Gaming",
+        "description": "A gaming smart device that offers personalized recommendations, helping developers by saving users time."
+    },
+    {
+        "id": 86,
+        "industry": "Agriculture",
+        "description": "A agriculture marketplace that works completely offline, helping parents by reducing operational costs."
+    },
+    {
+        "id": 87,
+        "industry": "Cybersecurity",
+        "description": "A cybersecurity wearable device that uses computer vision, helping healthcare professionals by boosting business growth."
+    },
+    {
+        "id": 88,
+        "industry": "Healthcare",
+        "description": "A healthcare web platform that works completely offline, helping fitness enthusiasts by improving productivity."
+    },
+    {
+        "id": 89,
+        "industry": "Real Estate",
+        "description": "A real estate mobile app that provides real-time analytics, helping travelers by streamlining workflows."
+    },
+    {
+        "id": 90,
+        "industry": "Cybersecurity",
+        "description": "A cybersecurity marketplace that uses computer vision, helping content creators by streamlining workflows."
+    },
+    {
+        "id": 91,
+        "industry": "Fitness",
+        "description": "A fitness analytics dashboard that provides predictive insights, helping parents by enhancing customer experience."
+    },
+    {
+        "id": 92,
+        "industry": "Finance",
+        "description": "A finance analytics dashboard that uses artificial intelligence, helping content creators by boosting business growth."
+    },
+    {
+        "id": 93,
+        "industry": "Fashion",
+        "description": "A fashion marketplace that uses computer vision, helping healthcare professionals by reducing operational costs."
+    },
+    {
+        "id": 94,
+        "industry": "Retail",
+        "description": "A retail marketplace that provides real-time analytics, helping content creators by making better decisions."
+    },
+    {
+        "id": 95,
+        "industry": "Gaming",
+        "description": "A gaming analytics dashboard that integrates with popular apps, helping parents by simplifying daily tasks."
+    },
+    {
+        "id": 96,
+        "industry": "Smart Home",
+        "description": "A smart home AI assistant that offers personalized recommendations, helping travelers by simplifying daily tasks."
+    },
+    {
+        "id": 97,
+        "industry": "Food",
+        "description": "A food cloud platform that provides predictive insights, helping travelers by making better decisions."
+    },
+    {
+        "id": 98,
+        "industry": "Smart Home",
+        "description": "A smart home mobile app that works completely offline, helping developers by making better decisions."
+    },
+    {
+        "id": 99,
+        "industry": "Pet Care",
+        "description": "A pet care cloud platform that provides predictive insights, helping retail stores by increasing engagement."
+    },
+    {
+        "id": 100,
+        "industry": "Music",
+        "description": "A music chatbot that offers personalized recommendations, helping retail stores by boosting business growth."
+    }
+]
